@@ -3,11 +3,13 @@ import './App.css';
 import MapChart from './MapChart';
 import { useEffect,useState } from 'react';
 import Container from '@material-ui/core/Container';
+import PlaneList from './PlaneList';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <PlaneList />
         <Container
           className="Map-container"
           disableGutters

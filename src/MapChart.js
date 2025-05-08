@@ -25,10 +25,10 @@ export default function MapChart() {
       height={1400}
       projectionConfig={{
         scale: 850,
-        center: [40, 30],
+        center: [70, 20],
       }}
       style={{
-        width: "150%",
+        width: "250%",
         height: "auto",
       }}
     >
