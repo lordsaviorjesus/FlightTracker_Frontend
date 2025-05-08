@@ -1,6 +1,13 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -10,6 +17,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    scale: 0.5;
   }
 }
 
@@ -17,11 +25,8 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -29,13 +34,29 @@
 }
 
 .Plane-style {
-
   height: 50px;
   width: 50px;
   background-size: cover;
   object-fit: cover;
   border: 4px solid red;
   border-radius: 100%;
+}
+
+
+.Map-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 !important;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+.map-style {
+  width: 100%;
+  height: auto;
+  transform: translateX(-400px); /* Move map left */
+  transform-origin: center;
 }
 
 @keyframes App-logo-spin {
