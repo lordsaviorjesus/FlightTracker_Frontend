@@ -5,7 +5,7 @@ https://www.react-simple-maps.io/examples/basic-markers/   \
 https://codesandbox.io/p/sandbox/basic-markers-3fn8g?file=%2Fsrc%2FMapChart.js%3A49%2C13&from-embed   \
 https://www.react-simple-maps.io/examples/basic-annotation/   \
 https://www.react-simple-maps.io/examples/usa-with-state-labels/   \
-https://openskynetwork.github.io/opensky-api/rest.html   \
+https://openskynetwork.github.io/opensky-api/rest.html   
 
 
 # Getting Started with Create React App
